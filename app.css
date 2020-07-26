@@ -1,0 +1,81 @@
+/* COLOR SCHEME
+#d6f5f5 */
+
+/* HEADER */
+
+header {
+	background-color: #d6f5f5;
+	padding: 10px 20px;
+	text-align: center;
+}
+/*BODY */
+body {
+	background-color: #d6f5f5;
+}
+
+.main-container {
+	width: 100%;
+	max-width: 780px;
+	margin-bottom: 100px;
+	padding: 20px;
+	flex: 1;
+}
+
+.navbar {
+	flex: none;
+}
+
+.nav-item {
+	margin: 0 20px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-position: 320px 150px;
+	background-attachment: fixed;
+	opacity: 0.2;
+}
+
+@media screen and (max-width: 768px) {
+	.display-3 {
+		font-size: 3.5rem;
+	}
+}
+
+/*RESUME */
+
+/*INTRESTS */
+
+/*DONATE */
+.donate-form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 500px;
+}
+
+.donate-form .name-section {
+	display: flex;
+	flex-direction: row;
+}
+
+.donate-form .name-section > div {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+#canvas {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.submit-button {
+	margin-top: 10px;
+}
